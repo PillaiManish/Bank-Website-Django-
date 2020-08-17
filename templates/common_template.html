@@ -1,0 +1,57 @@
+{% block head %}
+
+{% load static from staticfiles%}
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="{%static "img/favicon.png" %}" type="image/png">
+	<title>TVM Bank</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="{%static "css/bootstrap.css" %}">
+	<link rel="styleshexzfet" hrefs="{%static "vendors/linericon/style.css" %}">
+	<link rel="stylesheet" href="{%static "css/font-awesome.min.css" %}">
+	<link rel="stylesheet" href="{%static "vendors/owl-carousel/owl.carousel.min.css" %}">
+	<link rel="stylesheet" href="{%static "vendors/lightbox/simpleLightbox.css" %}">
+	<link rel="stylesheet" href="{%static "vendors/nice-select/css/nice-select.css" %}">
+	<link rel="stylesheet" href="{%static "vendors/animate-css/animate.css" %}">
+	<link rel="stylesheet" href="{%static "vendors/jquery-ui/jquery-ui.css" %}">
+	<!-- main css -->
+	<link rel="stylesheet" href="{%static "css/style.css" %}">
+	<link rel="stylesheet" href="{%static "css/responsive.css" %}">
+
+<!-- 
+
+
+	<meta charset="UTF-8">
+	<script language="JavaScript">
+	  function showInput() {
+		var to_amount
+		var result
+	
+
+		to_amount = document.getElementById("to_amount").value;
+		
+		result = Number(to_amount) * 0.005 + Number(to_amount)
+
+		document.getElementById('display_amount').innerHTML = 
+					  document.getElementById("to_amount").value;
+			
+	
+		document.getElementById('display_userid').innerHTML = 
+					  document.getElementById("to_userid").value;
+
+		document.getElementById('total_amount').innerHTML = 
+					  result;
+	  }
+	</script> -->
+
+
+</head>
+
+
+
+{% endblock %}
+
